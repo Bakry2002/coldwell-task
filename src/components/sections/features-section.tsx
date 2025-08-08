@@ -107,7 +107,7 @@ export const FeaturesSection = () => {
   };
 
   return (
-    <section className="mt-24 md:mt-32 lg:mt-36 mb-8 sm:mb-10">
+    <section className="mt-16 sm:mt-20 md:mt-32 lg:mt-36 mb-8 sm:mb-10">
       <ContentWrapper>
         {/* Header */}
         <motion.div
@@ -138,7 +138,7 @@ export const FeaturesSection = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.1 }}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:mt-8 gap-4 sm:gap-6"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-4 gap-4 sm:gap-6"
         >
           {features.map((feature, index) => (
             <motion.div

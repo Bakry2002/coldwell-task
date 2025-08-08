@@ -189,7 +189,7 @@ export const HeroSection = () => {
             alt="Hero image"
             width={600}
             height={400}
-            className="w-full max-w-[300px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[700px] relative z-10 h-auto"
+            className="w-full max-w-[380px] sm:max-w-[500px] lg:max-w-[800px] relative z-10 h-auto"
             priority
           />
         </motion.div>
@@ -197,7 +197,7 @@ export const HeroSection = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="absolute h-[300px] sm:h-[400px] md:h-[450px] lg:h-[510px] top-12 sm:top-16 md:top-20 lg:top-24 left-0 right-0 bottom-0 z-[8] bg-[url('/hero-gradient-pattern.svg')] bg-center bg-no-repeat bg-cover"
+          className="absolute h-[300px] sm:h-[400px] md:h-[450px] lg:h-[610px] top-12 sm:top-16 md:top-20 lg:top-24 left-0 right-0 bottom-0 z-[8] bg-[url('/hero-gradient-pattern.svg')] bg-center bg-no-repeat bg-cover"
         />
       </motion.div>
     </section>
