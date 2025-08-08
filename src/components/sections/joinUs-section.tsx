@@ -11,7 +11,7 @@ export const JoinUsSection = () => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="md:h-[400px] h-[380px] mb-10 relative md:absolute md:justify-between justify-center flex items-center px-4 lg:px-20 md:-top-32 lg:-top-52 top-0 overflow-hidden w-full lg:mx-auto max-w-full lg:max-w-[68rem] md:max-w-[50rem] rounded-2xl md:rounded-4xl bg-gradient-to-tl to-[#FF9898] from-[#8054FF]"
+      className="md:h-[400px] h-[380px] text-white mb-10 relative md:absolute md:justify-between justify-center flex items-center px-4 lg:px-20 md:-top-32 lg:-top-52 top-0 overflow-hidden w-full lg:mx-auto max-w-full lg:max-w-[68rem] md:max-w-[50rem] rounded-2xl md:rounded-4xl bg-gradient-to-tl to-[#FF9898] from-[#8054FF]"
     >
       <motion.div
         initial={{ opacity: 0, x: -20 }}

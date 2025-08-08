@@ -4,7 +4,7 @@ import { FaDiscord, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 export const AppFooter = () => {
   return (
-    <footer className="bg-[#18181C] flex flex-col">
+    <footer className="bg-[#18181C] text-white flex flex-col">
       {/* Upper Section */}
       <ContentWrapper className="flex w-full flex-col md:flex-row flex-1 py-6 md:justify-between items-center md:items-start">
         {/* LOGO and Description */}

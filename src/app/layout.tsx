@@ -23,10 +23,10 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-black">
       <body
-        className={`${poppins.className} bg-black min-h-screen antialiased flex flex-col`}
+        className={`${poppins.className} bg-black text-white min-h-screen antialiased flex flex-col`}
       >
         <AppHeader />
-        <main className="flex-1 pt-14">{children}</main>
+        <main className="flex-1 pt-14 bg-black text-white">{children}</main>
         <AppFooter />
       </body>
     </html>
