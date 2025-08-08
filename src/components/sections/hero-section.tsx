@@ -35,7 +35,7 @@ export const HeroSection = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.3 }}
-        className="absolute inset-0 bg-[url('/hero-pattern.svg')] bg-center bg-no-repeat bg-cover"
+        className="absolute inset-0 bg-[url('/assets/hero-pattern.svg')] bg-center bg-no-repeat bg-cover"
         style={{
           mask: "linear-gradient(to right, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 20%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0.2) 100%)",
           WebkitMask:
@@ -185,7 +185,7 @@ export const HeroSection = () => {
           transition={{ duration: 0.3 }}
         >
           <Image
-            src={"/hero-image.svg"}
+            src={"assets/hero-image.svg"}
             alt="Hero image"
             width={600}
             height={400}
@@ -197,7 +197,7 @@ export const HeroSection = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="absolute h-[300px] sm:h-[400px] md:h-[450px] lg:h-[610px] top-12 sm:top-16 md:top-20 lg:top-24 left-0 right-0 bottom-0 z-[8] bg-[url('/hero-gradient-pattern.svg')] bg-center bg-no-repeat bg-cover"
+          className="absolute h-[300px] sm:h-[400px] md:h-[450px] lg:h-[610px] top-12 sm:top-16 md:top-20 lg:top-24 left-0 right-0 bottom-0 z-[8] bg-[url('/assets/hero-gradient-pattern.svg')] bg-center bg-no-repeat bg-cover"
         />
       </motion.div>
     </section>

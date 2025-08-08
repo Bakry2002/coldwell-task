@@ -61,7 +61,7 @@ export const JoinUsSection = () => {
         transition={{ duration: 0.6, delay: 0.3 }}
       >
         <Image
-          src={"/joinus_image.svg"}
+          src={"assets/joinus_image.svg"}
           alt="Join us image"
           width={550}
           height={200}

@@ -1,14 +1,13 @@
 import Image from "next/image";
 
 export const FeatureProgramsCircle = () => {
-  // Triangle positions: 3 images at 120-degree intervals with head on the right
   const imagePositions = [
-    { angle: -35, resource: "/program_1.svg" }, // Right (head of triangle)
-    { angle: 120, resource: "/program_2.svg" }, // Top left
-    { angle: 230, resource: "/program_3.svg" }, // Bottom left
+    { angle: -35, resource: "assets/programs/program_1.svg" }, // Right (head of triangle)
+    { angle: 120, resource: "assets/programs/program_2.svg" }, // Top left
+    { angle: 230, resource: "assets/programs/program_3.svg" }, // Bottom left
   ];
 
-  // Dots positioned between images (60 degrees offset from images)
+  // Dots positioned between images
   const dotPositions = [
     { angle: 50 }, // Between right and top left
     { angle: 175 }, // Between top left and bottom left
@@ -58,7 +57,6 @@ export const FeatureProgramsCircle = () => {
         );
       })}
 
-      {/* Small dots between images */}
       {dotPositions.map((dot, index) => {
         const position = getPositionFromAngle(dot.angle, 137.5);
         return (

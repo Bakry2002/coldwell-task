@@ -12,37 +12,37 @@ const features = [
     title: "Fully Customizable",
     description:
       "A good design is not only aesthetically pleasing, but also functional. It should be able to solve the problem ",
-    iconHref: "/feature_1.svg",
+    iconHref: "assets/features/feature_1.svg",
   },
   {
     title: "Fully Customizable",
     description:
       "A good design is not only aesthetically pleasing, but also functional. It should be able to solve the problem ",
-    iconHref: "/feature_2.svg",
+    iconHref: "assets/features/feature_2.svg",
   },
   {
     title: "Fully Customizable",
     description:
       "A good design is not only aesthetically pleasing, but also functional. It should be able to solve the problem ",
-    iconHref: "/feature_3.svg",
+    iconHref: "assets/features/feature_3.svg",
   },
   {
     title: "Fully Customizable",
     description:
       "A good design is not only aesthetically pleasing, but also functional. It should be able to solve the problem ",
-    iconHref: "/feature_4.svg",
+    iconHref: "assets/features/feature_4.svg",
   },
   {
     title: "Fully Customizable",
     description:
       "A good design is not only aesthetically pleasing, but also functional. It should be able to solve the problem ",
-    iconHref: "/feature_5.svg",
+    iconHref: "assets/features/feature_5.svg",
   },
   {
     title: "Fully Customizable",
     description:
       "A good design is not only aesthetically pleasing, but also functional. It should be able to solve the problem ",
-    iconHref: "/feature_6.svg",
+    iconHref: "assets/features/feature_6.svg",
   },
 ];
 

@@ -12,7 +12,7 @@ export const ContactSection = () => {
     <section className="md:mt-80 mt-10 mb-40">
       <ContentWrapper className="flex relative items-center md:justify-between gap-20 md:gap-32 lg:flex-row flex-col">
         <Image
-          src={"/contact-image.svg"}
+          src={"assets/contact-image.svg"}
           alt="contact image"
           width={300}
           height={300}
