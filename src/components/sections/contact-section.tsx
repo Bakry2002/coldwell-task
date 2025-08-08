@@ -9,22 +9,23 @@ export const ContactSection = () => {
   const isMobile = useIsMobile();
 
   return (
-    <section className="md:mt-80  mt-10 mb-40">
-      <ContentWrapper className="flex relative items-center justify-center gap-24 md:flex-row flex-col">
+    <section className="md:mt-80 mt-10 mb-40">
+      <ContentWrapper className="flex relative items-center md:justify-between gap-20 md:gap-32 lg:flex-row flex-col">
         <Image
           src={"/contact-image.svg"}
           alt="contact image"
-          width={isMobile ? 300 : 400}
-          height={isMobile ? 300 : 400}
+          width={300}
+          height={300}
+          className="md:w-[400px] relative left-4 md:h-[400px] w-[300px] h-[300px]"
         />
 
         {/* Form */}
-        <div>
+        <div className="flex-1">
           <div className="flex flex-col gap-4">
             <h3 className="text-4xl md:text-left text-center font-semibold">
               Get In Touch
             </h3>
-            <p className="text-[#9E9E9E] max-w-md">
+            <p className="text-[#9E9E9E] md:text-left text-center max-w-md">
               A good design is not only aesthetically pleasing, but also
               functional. It should be able to solve the problem{" "}
             </p>
@@ -66,7 +67,7 @@ export const ContactSection = () => {
             />
 
             <div
-              className="absolute top-96 right-[52%] w-24 h-24 rounded-full"
+              className="absolute top-96 right-[58%] w-24 h-24 rounded-full"
               style={{
                 background:
                   "radial-gradient(circle at top left, #494955 0%, #141414 70%)",

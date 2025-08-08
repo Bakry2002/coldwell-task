@@ -83,7 +83,7 @@ export const HeroSection = () => {
                 delay: 1,
               },
             }}
-            className="absolute top-[55%] sm:top-[60%] left-40 sm:left-56 w-24 h-24 sm:w-32 sm:h-32 rounded-full"
+            className="absolute md:block hidden top-[55%] sm:top-[60%] left-40 sm:left-56 w-24 h-24 sm:w-32 sm:h-32 rounded-full"
             style={{
               background:
                 "radial-gradient(circle at top left, #494955 0%, #141414 70%)",

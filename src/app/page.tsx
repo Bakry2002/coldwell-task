@@ -13,7 +13,7 @@ export default function Home() {
 
       <TrustedBySection />
 
-      <div className="relative flex md:px-0 px-4 items-center justify-center">
+      <div className="relative flex px-4 items-center justify-center">
         <JoinUsSection />
       </div>
 
