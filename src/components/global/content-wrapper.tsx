@@ -7,7 +7,7 @@ export const ContentWrapper = ({
 }) => {
   return (
     <div
-      className={`mx-auto container px-4 md:px-12 lg:px-24 xl:px-48 ${className}`}
+      className={`mx-auto container px-4 md:px-12 bg-black lg:px-24 xl:px-48 ${className}`}
     >
       {children}
     </div>
