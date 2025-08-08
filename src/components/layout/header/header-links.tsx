@@ -2,7 +2,7 @@
 
 import { HeaderLinksProps } from "@/types";
 import Link from "next/link";
-import { AppButton } from "../app-button";
+import { AppButton } from "../../global/app-button";
 import { motion } from "framer-motion";
 
 export const HeaderLinks = ({ links }: HeaderLinksProps) => {

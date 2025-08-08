@@ -2,7 +2,7 @@
 
 import { motion, useScroll, useTransform } from "motion/react";
 import { useState, useEffect } from "react";
-import { ContentWrapper } from "../content-wrapper";
+import { ContentWrapper } from "../../global/content-wrapper";
 import Image from "next/image";
 import { HeaderLinks } from "./header-links";
 
