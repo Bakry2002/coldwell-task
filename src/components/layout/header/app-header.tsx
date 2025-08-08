@@ -99,7 +99,7 @@ export const AppHeader = () => {
         />
       )}
 
-      <ContentWrapper className="relative  z-10 px-3 sm:px-4 md:px-6 lg:px-8">
+      <ContentWrapper className="relative z-10 px-6 lg:px-8">
         <div className="flex w-full justify-between items-center gap-2 sm:gap-3 md:gap-4">
           {/* LOGO */}
           <motion.div
