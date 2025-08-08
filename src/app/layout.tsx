@@ -21,9 +21,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-black">
       <body
-        className={`${poppins.className} min-h-screen antialiased flex flex-col`}
+        className={`${poppins.className} bg-black min-h-screen antialiased flex flex-col`}
       >
         <AppHeader />
         <main className="flex-1 pt-14">{children}</main>
