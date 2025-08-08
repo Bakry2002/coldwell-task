@@ -71,7 +71,7 @@ export const AppHeader = () => {
       variants={headerVariants}
       initial="hidden"
       animate="visible"
-      className={`flex z-50 fixed bg-black w-full top-0 left-0 right-0 items-center transition-all duration-300 ${
+      className={`flex z-50 fixed bg-transparent w-full top-0 left-0 right-0 items-center transition-all duration-300 ${
         isScrolled
           ? "h-14 sm:h-16 md:h-18 lg:h-20"
           : "h-12 sm:h-14 md:h-16 lg:h-18"
@@ -90,7 +90,7 @@ export const AppHeader = () => {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.8, delay: 0.1 }}
-          className="absolute bg-black md:block hidden inset-0 bottom-4 bg-[url('/hero-pattern.svg')] bg-center bg-no-repeat bg-cover"
+          className="absolute md:block hidden inset-0 bottom-4 bg-[url('/assets/hero-pattern.svg')] bg-center bg-no-repeat bg-cover"
           style={{
             mask: "linear-gradient(to right, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 20%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0.2) 100%)",
             WebkitMask:
@@ -99,7 +99,7 @@ export const AppHeader = () => {
         />
       )}
 
-      <ContentWrapper className="relative bg-black z-10 px-3 sm:px-4 md:px-6 lg:px-8">
+      <ContentWrapper className="relative  z-10 px-3 sm:px-4 md:px-6 lg:px-8">
         <div className="flex w-full justify-between items-center gap-2 sm:gap-3 md:gap-4">
           {/* LOGO */}
           <motion.div
