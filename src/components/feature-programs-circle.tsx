@@ -33,7 +33,15 @@ export const FeatureProgramsCircle = () => {
       {/* Circle 4: 137px */}
       <div className="absolute w-[190px] h-[190px] rounded-full border border-[#222228]"></div>
       {/* Circle 5: 50px */}
-      <div className="absolute w-[100px] h-[100px] rounded-full border border-[#222228]"></div>
+      <div className="absolute w-[100px] bg h-[100px] bg-[#18181C] rounded-full border border-[#222228]">
+        <Image
+          src={"/plain-logo.svg"}
+          alt="logo"
+          width={60}
+          height={60}
+          className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
+        />
+      </div>
 
       {/* Images on the third circle in triangle formation */}
       {imagePositions.map((item, index) => {
