@@ -71,8 +71,10 @@ export const AppHeader = () => {
       variants={headerVariants}
       initial="hidden"
       animate="visible"
-      className={`flex pt-2 z-50 fixed w-full top-0 left-0 right-0 items-center transition-all duration-300 ${
-        isScrolled ? "h-20" : " h-18"
+      className={`flex z-50 fixed w-full top-0 left-0 right-0 items-center transition-all duration-300 ${
+        isScrolled
+          ? "h-14 sm:h-16 md:h-18 lg:h-20"
+          : "h-12 sm:h-14 md:h-16 lg:h-18"
       }`}
     >
       {/* Animated background that appears on scroll */}
@@ -97,8 +99,8 @@ export const AppHeader = () => {
         />
       )}
 
-      <ContentWrapper className="relative z-10 px-2 sm:px-4 md:px-6 lg:px-8">
-        <div className="flex w-full justify-between items-center gap-1 sm:gap-2 md:gap-4">
+      <ContentWrapper className="relative z-10 px-3 sm:px-4 md:px-6 lg:px-8">
+        <div className="flex w-full justify-between items-center gap-2 sm:gap-3 md:gap-4">
           {/* LOGO */}
           <motion.div
             variants={logoVariants}
@@ -112,7 +114,7 @@ export const AppHeader = () => {
               alt="app logo"
               width={80}
               height={80}
-              className="w-24 h-24"
+              className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-24"
             />
           </motion.div>
 

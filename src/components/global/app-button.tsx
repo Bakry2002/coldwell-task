@@ -21,10 +21,13 @@ export const AppButton = ({
   variant = "primary",
   className,
 }: AppButtonProps) => {
-  const baseClasses = "px-4 py-2 rounded-sm transition-colors cursor-pointer";
   return (
     <button
-      className={cn(baseClasses, variants[variant], className)}
+      className={cn(
+        "px-4 py-2 rounded-sm transition-all cursor-pointer hover:scale-[1.02] active:scale-[0.99]",
+        variants[variant],
+        className
+      )}
       onClick={onClick}
     >
       {children}

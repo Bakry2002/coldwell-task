@@ -24,9 +24,9 @@ export const FeatureProgramsCircle = () => {
   };
 
   return (
-    <div className="relative w-[500px] h-[500px] flex items-center justify-center">
+    <div className="relative h-[350px] lg:w-[500px] lg:h-[500px] flex items-center justify-center">
       {/* Circle 1: 400px */}
-      <div className="absolute w-[480px] h-[480px] opacity-40 rounded-full border border-[#222228]"></div>
+      <div className="absolute md:block hidden w-[480px] h-[480px] opacity-40 rounded-full border border-[#222228]"></div>
       {/* Circle 2: 312px */}
       <div className="absolute w-[362px] h-[362px] rounded-full border border-[#222228]"></div>
       {/* Circle 3: 225px with images and dots */}

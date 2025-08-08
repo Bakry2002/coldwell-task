@@ -13,13 +13,11 @@ export default function Home() {
 
       <TrustedBySection />
 
-      <div className="relative flex items-center justify-center">
+      <div className="relative flex md:px-0 px-4 items-center justify-center">
         <JoinUsSection />
       </div>
 
       <ContactSection />
-
-      {/* <div className="h-[1000px]"></div> */}
     </div>
   );
 }

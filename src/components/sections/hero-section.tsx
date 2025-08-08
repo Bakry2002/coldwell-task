@@ -6,7 +6,6 @@ import { ContentWrapper } from "../global/content-wrapper";
 import { motion } from "framer-motion";
 
 export const HeroSection = () => {
-  // Animation variants
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -160,11 +159,7 @@ export const HeroSection = () => {
               functional. It should be able to solve the problem{" "}
             </motion.p>
 
-            <motion.div
-              variants={itemVariants}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
+            <motion.div variants={itemVariants}>
               <AppButton
                 variant="gradient"
                 className="rounded-sm mt-2 sm:mt-4 px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base"
