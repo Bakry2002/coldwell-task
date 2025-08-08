@@ -71,16 +71,14 @@ export const AppHeader = () => {
       variants={headerVariants}
       initial="hidden"
       animate="visible"
-      className={`flex pt-2 sm:pt-3 md:pt-4 lg:pt-6 z-50 fixed w-full top-0 left-0 right-0 items-center transition-all duration-300 ${
-        isScrolled
-          ? "h-12 sm:h-14 md:h-16 lg:h-18 xl:h-20"
-          : "h-10 sm:h-12 md:h-14 lg:h-16 xl:h-18"
+      className={`flex pt-2 z-50 fixed w-full top-0 left-0 right-0 items-center transition-all duration-300 ${
+        isScrolled ? "h-20" : " h-18"
       }`}
     >
       {/* Animated background that appears on scroll */}
       <motion.div
         style={{ opacity: backgroundOpacity }}
-        className="absolute inset-0 bg-black/80 backdrop-blur-sm"
+        className="absolute inset-0 bg-black backdrop-blur-sm"
       />
 
       {/* Pattern background - only show when not scrolled */}
@@ -90,7 +88,7 @@ export const AppHeader = () => {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.8, delay: 0.1 }}
-          className="absolute inset-0 bottom-4 bg-[url('/hero-pattern.svg')] bg-center bg-no-repeat bg-cover"
+          className="absolute md:block hidden inset-0 bottom-4 bg-[url('/hero-pattern.svg')] bg-center bg-no-repeat bg-cover"
           style={{
             mask: "linear-gradient(to right, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 20%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0.2) 100%)",
             WebkitMask:
@@ -114,7 +112,7 @@ export const AppHeader = () => {
               alt="app logo"
               width={80}
               height={80}
-              className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-24"
+              className="w-24 h-24"
             />
           </motion.div>
 
