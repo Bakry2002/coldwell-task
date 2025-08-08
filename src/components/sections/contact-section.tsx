@@ -34,12 +34,12 @@ export const ContactSection = () => {
           <form action="" className="flex flex-col gap-4 mt-6">
             <input
               type="email"
-              className="border-none bg-[#18181C] h-10 rounded-md px-4"
+              className="border-none bg-[#18181C] h-12 rounded-md px-4"
               placeholder="Your Email"
             />
             <input
               type="text"
-              className="border-none bg-[#18181C] h-10 rounded-md px-4"
+              className="border-none bg-[#18181C] h-12 rounded-md px-4"
               placeholder="Name"
             />
 
@@ -62,7 +62,6 @@ export const ContactSection = () => {
                 background:
                   "radial-gradient(circle at top left, #494955 0%, #141414 70%)",
                 filter: "blur(5px)",
-                // opacity: 0.8,
               }}
             />
 
@@ -72,7 +71,6 @@ export const ContactSection = () => {
                 background:
                   "radial-gradient(circle at top left, #494955 0%, #141414 70%)",
                 filter: "blur(5px)",
-                // opacity: 0.6,
               }}
             />
           </>
