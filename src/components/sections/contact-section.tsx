@@ -22,10 +22,10 @@ export const ContactSection = () => {
         {/* Form */}
         <div className="flex-1">
           <div className="flex flex-col gap-4">
-            <h3 className="text-4xl md:text-left text-center font-semibold">
+            <h3 className="text-4xl lg:text-left text-center font-semibold">
               Get In Touch
             </h3>
-            <p className="text-[#9E9E9E] md:text-left text-center max-w-md">
+            <p className="text-[#9E9E9E] lg:text-left text-center max-w-md">
               A good design is not only aesthetically pleasing, but also
               functional. It should be able to solve the problem{" "}
             </p>
@@ -48,7 +48,7 @@ export const ContactSection = () => {
               placeholder="Message"
             />
 
-            <AppButton variant="gradient" className="text-sm md:w-fit py-2.5">
+            <AppButton variant="gradient" className="text-sm lg:w-fit py-2.5">
               Get in Touch
             </AppButton>
           </form>
@@ -57,7 +57,7 @@ export const ContactSection = () => {
         {!isMobile && (
           <>
             <div
-              className="absolute top-4 left-[15%] transform -translate-x-1/2 w-16 h-16 rounded-full"
+              className="absolute lg:block hidden top-4 left-[15%] transform -translate-x-1/2 w-16 h-16 rounded-full"
               style={{
                 background:
                   "radial-gradient(circle at top left, #494955 0%, #141414 70%)",
