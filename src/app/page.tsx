@@ -6,7 +6,7 @@ import { TrustedBySection } from "@/components/sections/trustedBy-section";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col bg-black gap-2">
       <HeroSection />
 
       <FeaturesSection />
